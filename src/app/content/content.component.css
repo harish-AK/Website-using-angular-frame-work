@@ -1,0 +1,21 @@
+@import"C:\Users\HARISH A K\Desktop\web desigining\angular\angular demo\PROJECT\src\bootstrap.css";
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.content ul{
+  flex: 1;
+  }
+  .content ul li{
+  margin-top: 25px;
+  list-style: none;
+  display:inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+  position:relative;
+  }
+  .content img{
+  width: 150px;
+  height:200px;
+  }

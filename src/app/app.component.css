@@ -1,0 +1,125 @@
+@import"C:\Users\HARISH A K\Desktop\web desigining\angular\angular demo\PROJECT\src\bootstrap.css";
+
+.topnav {
+  background-color: rgb(248, 236, 13);
+  overflow: hidden;
+}
+.footer a {
+display:inline-block;
+color: white;
+padding: 16px;
+text-decoration: none;
+background-color:black;
+}
+.footer a:hover:not(.active) {
+background-color:black;
+color: #f5d71b;
+}
+@media screen and (max-width: 700px) {
+.footer {
+  width: 100%;
+  height: auto;
+}
+.footer a {float:left;}
+}
+@media screen and (max-width: 400px) {
+.footer a {
+  text-align: center;
+  float: none;
+}
+}
+  
+.footer a:hover:not(.active) {
+  background-color:black;
+  color: #070807;
+}
+@media screen and (max-width: 700px) {
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+  .footer a {float:left;}
+}
+@media screen and (max-width: 400px) {
+  .footer a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0, 47, 255, 0.213);;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(17, 18, 20);
+  color: rgb(255, 255, 255);
+}
+.content ul{
+flex: 1;
+}
+.content ul li{
+margin-top: 25px;
+list-style: none;
+display:inline-block;
+padding-top: 10px;
+padding-left: 10px;
+position:relative;
+}
+.content img{
+width: 150px;
+height:200px;
+}
+
+.sidebar a {
+display: block;
+color: white;
+padding: 10px;
+text-decoration: none;
+background-color:rgb(202, 232, 31);
+}
+.sidebar a:hover:not(.active) {
+background-color:black;
+color: #1DB954;
+}
+@media screen and (max-width: 700px) {
+.sidebar {
+  width: 10%;
+  height: auto;
+}
+.sidebar a {float: left;}
+}
+@media screen and (max-width: 400px) {
+.sidebar a {
+  text-align: center;
+  float: none;
+}
+}
+.sla{text-align: center;font-size: 100px;}
+.cla{text-align: center;font-size: 7S0px;}
